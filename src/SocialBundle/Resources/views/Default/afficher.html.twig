@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+ <body>
+ <p>liste des utilisateurs</p>
+ {% for user in users %}
+
+ <ul>
+ <li>nom :{{ user.nom }}</li>
+ <li>prenom :{{ user.prenom }}</li>
+ <li>pseudo :{{ user.username }}</li>
+  <li>date de naissance : {{ user.dateNaissance|date('d-m-Y') }}</li>
+ <li>email :{{ user.email }}</li>
+ </ul>
+ {% endfor %}
+ </body>
+</html>

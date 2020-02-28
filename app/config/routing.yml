@@ -1,0 +1,7 @@
+social:
+    resource: "@SocialBundle/Resources/config/routing.yml"
+    prefix:   /social
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

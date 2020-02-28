@@ -1,0 +1,21 @@
+social_accueil:
+    path:     /
+    defaults: { _controller: SocialBundle:Social:accueil }
+social_afficher:
+    path:     /afficher
+    defaults: { _controller: SocialBundle:Social:afficher }
+social_afficher2:
+    path:     /afficher2
+    defaults: { _controller: SocialBundle:Social:afficher2 }
+social_connexion:
+    path:     /connexion
+    defaults: { _controller: SocialBundle:Social:connexion }
+social_publier:
+    path:     /publier
+    defaults: { _controller: SocialBundle:Social:publier }
+social_deconnexion:
+    path:     /deconnexion
+    defaults: { _controller: SocialBundle:Social:deconnexion }
+social_feed:
+    path:     /feed
+    defaults: { _controller: SocialBundle:Social:feed }
